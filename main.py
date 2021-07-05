@@ -8,7 +8,7 @@ shape_files = [os.path.join(shape_dir, filename) for filename in os.listdir(shap
 
 @st.cache
 def get_clean_data_map():
-    years = [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]
+    years = [2014, 2015, 2016, 2017, 2018, 2019, 2020]
     months = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC']
 
     month_possibilities = {'JAN': ['JAN', 'JNR'],
